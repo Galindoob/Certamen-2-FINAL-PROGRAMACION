@@ -176,7 +176,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color:rgb(2, 2, 204);
 	padding: 10px;
 	text-align: center;
 	
@@ -185,6 +185,7 @@ h1,h2,h3,h4,h5{
 	margin: 15px 0;
 	font-size: 2.8em;
 	font-family: 'Sacramento',cursive;
+	color: black
 	
 }
 .column__title{
@@ -212,7 +213,6 @@ h1,h2,h3,h4,h5{
 	font-size: 1.8em;
 	margin: 30px;
 }
-
 .today-special .column {
 	margin-bottom: 30px;
 	text-align: center;
@@ -284,7 +284,7 @@ h1,h2,h3,h4,h5{
 		color: #fff;
 	}
 	.main_nav{
-		background:rgba(0,0,0,0.85);
+		background:rgba(0, 0, 0, 0.85);
 	}
 	.banner__content{
 		font-size:1.5em;
