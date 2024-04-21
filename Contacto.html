@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Galeria</title>
+    <title>Contacto</title>
     <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0,maximum-scale=2.0,minimum-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
     <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
@@ -31,8 +31,8 @@
             <ul class="menu" id="menu">
                 <li class="menu__item"><a href="index.html" class="menu__link menu__link">Inicio</a></li>
                 <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
-                <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select">Galeria</a></li>
-                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
             </ul>
             <div class="social-icon">
                 <a href="https://web.facebook.com/clubuniversidaddechileoficial/?_rdc=1&_rdr" class="social-icon__link"><span class="icon-facebook"></span></a>
@@ -45,53 +45,49 @@
         <img src="/fotos/C3WAHR3GXFAHNASHEK7B34AW4E.webp" alt="" class="banner__img">
         <div class="banner__content">Por que somos diferentes, Somos de la U</div>
     </section>
-    <main class="main">
-        <section class="group--color">
-            <div class="container">
-                <h2 class="main__title">Galería de Fotos</h2>
-                <p class="main_txt">
-                <strong>Bienvenido a nuestra galería de fotos, donde podrás explorar entrevistas exclusivas con nuestros jugadores, momentos destacados de partidos jugados y otras imágenes fascinantes que capturan la pasión y el espíritu del Club Universidad de Chile. Sumérgete en nuestra historia a través de fotografías que muestran la intensidad y emoción del fútbol, y descubre por qué somos diferentes. ¡Únete a nosotros en esta emocionante travesía por el mundo de la U!</strong>
-                </p>
-            </div>
-        </section>
-    
-        <section class="gallery">
-            <div class="container">
-                <h3 class="gallery__title">Últimas Fotos</h3>
-                <div class="gallery__images">
-                    <img src="/fotos/u1.jpg" class="rounded gallery__image" alt="Imagen 1">
-                    <img src="/fotos/u2.jpg" class="rounded gallery__image" alt="Imagen 2">
-                    <img src="/fotos/u3.jpg" class="rounded gallery__image" alt="Imagen 3">
+
+    <section class="contact">
+        <div class="container">
+            <h2 class="main__title">Contáctenos</h2>
+            <p class="main_txt">
+                Por favor, complete el siguiente formulario para ponerse en contacto con nosotros.
+            </p>
+            <form action="enviar.php" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
                 </div>
-            </div>
-        </section>
-    
-        <!-- Segunda sección de imágenes -->
-        <section class="gallery">
-            <div class="container">
-                <h3 class="gallery__title">Más Fotos</h3>
-                <div class="gallery__images">
-                    <img src="/fotos/u4.jpg" class="rounded gallery__image" alt="Imagen 4">
-                    <img src="/fotos/u5.jpg" class="rounded gallery__image" alt="Imagen 5">
-                    <img src="/fotos/u6.jpg" class="rounded gallery__image" alt="Imagen 6">
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
                 </div>
-            </div>
-        </section>
-    
-        <!-- Tercera sección de imágenes -->
-        <section class="gallery">
-            <div class="container">
-                <h3 class="gallery__title">Otras Fotos</h3>
-                <div class="gallery__images">
-                    <img src="/fotos/u7.jpg" class="rounded gallery__image" alt="Imagen 7">
-                    <img src="/fotos/u8.jpg" class="rounded gallery__image" alt="Imagen 8">
-                    <img src="/fotos/u9.jpg" class="rounded gallery__image" alt="Imagen 9">
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
                 </div>
-            </div>
-        </section>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+    
+    <section class="map">
+        <div class="container">
+            <h2 class="main__title">Encuéntranos en el Mapa</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.1836319542153!2d-70.67374492523791!3d-33.52261097336106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662db1d0e0ffdcd%3A0x7d6bb0ee0ca2634a!2sAv.%20El%20Parr%C3%B3n%200939%2C%207970227%20Santiago%2C%20La%20Cisterna%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1713659935019!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="URL_DEL_MAPA_EMBEDIDO" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    
+    
+    
+
+
+
     </main>
-    
-    
     <footer class="main-footer">
         <div class="container container--flex">
             <div class="column column--33">
@@ -117,6 +113,3 @@
     <script src="js/menu.js"></script>
 </body>
 </html>
-
-
-

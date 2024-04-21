@@ -398,6 +398,29 @@ h1,h2,h3,h4,h5{
 	}
 }
 
+.gallery {
+    margin-top: 30px;
+}
+
+.gallery__title {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery__images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery__image {
+    width: 30%; /* Ajusta el ancho según necesites */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+
+
 
 
 
