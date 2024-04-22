@@ -7,22 +7,33 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/about.css">
     <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
+    <link href="https://kit.fontawesome.com/d7a0d10a96.css" rel="stylesheet">
+    <style>
+        /* Cambiar la fuente para los títulos */
+        .main__title,
+        .group__title,
+        .our-team__title,
+        .logo { /* Agregar la clase .logo para cambiar la fuente del título "Universidad de Chile" */
+            font-family: 'Font Awesome 5 Pro', sans-serif; /* Cambia la fuente a 'Font Awesome 5 Pro' */
+            font-weight: 400; /* Peso de la fuente regular */
+            font-style: normal; /* Estilo de fuente normal (no cursiva) */
+            /* Ajusta otros estilos según sea necesario */
+        }
+    </style>
 </head>
 <body>
     <header class="main-header">
         <div class="container container--flex">
             <div class="logo-container column column--50">
-                <h1 class="logo">Universidad de chile</h1>
+                <h1 class="logo">Universidad de Chile</h1> <!-- Aplicar el estilo de fuente aquí -->
             </div>
             <div class="main-header__contactInfo column column--50">
                 <p class="main-header__contactInfo__phone">
-                    <span class="icon-phone">+56 2 2899 9900
-                    </span>
+                    <span class="icon-phone">+56 2 2899 9900</span>
                 </p>
                 <p class="main-header__contactInfo__addres">
                     <span class="icon-location">Av. El Parrón 0939, Región Metropolitana</span>
                 </p>
-                
             </div>
         </div>
     </header>
@@ -30,9 +41,9 @@
         <div class="container container--flex">
             <span class="icon-menu" id="btnmenu"></span>
             <ul class="menu" id="menu">
-                <li class="menu__item"><a href="index.html" class="menu__link menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
                 <li class="menu__item"><a href="nosotros.html" class="menu__link menu__link--select">Nosotros</a></li>
-                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galería</a></li>
                 <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
             </ul>
             <div class="social-icon">
@@ -44,57 +55,53 @@
     </nav>
     <section class="banner">
         <img src="/fotos/C3WAHR3GXFAHNASHEK7B34AW4E.webp" alt="" class="banner__img">
-        <div class="banner__content">Por que somos diferentes, Somos de la U</div>
+        <div class="banner__content">Porque somos diferentes, somos de la U</div>
     </section>
     <main class="main">
         <section class="group--color">
             <div class="container">
                 <h2 class="main__title">Directorio Azul</h2>
                 <p class="main_txt">
-                <strong>El Club Universidad de Chile está liderado por Michael Mark Clark Varela como Presidente y Cecilia Roxana Perez Jara como Vicepresidente desde el 25 de abril de 2023. Destacamos también la contribución fundamental de Manuel Mayo, nuestro Gerente Deportivo.
-
-Estos líderes son la cara visible de nuestra institución, guiando con pasión y compromiso. Su liderazgo es vital para mantener la excelencia y representar los valores del club con orgullo.</strong>
+                    <strong>El Club Universidad de Chile está liderado por Michael Mark Clark Varela como Presidente y Cecilia Roxana Perez Jara como Vicepresidente desde el 25 de abril de 2023. Destacamos también la contribución fundamental de Manuel Mayo, nuestro Gerente Deportivo.
+                    Estos líderes son la cara visible de nuestra institución, guiando con pasión y compromiso. Su liderazgo es vital para mantener la excelencia y representar los valores del club con orgullo.</strong>
                 </p>
             </div>
         </section>
-      	<section class="group our-team">
-      		<h2 class="group__title">Directores</h2>
-      		<div class="container container--flex">
-      			<div class="column column--33">
-      				<h3 class="our-team__title">Michael Clark</h3>
-      				<img src="/fotos/clark.jpg" alt="" class="our-team__img">
-      				<p class="our-team__txt">Presidente de Azul Azul: Michael Mark Clark Varela es el Presidente del Club Universidad de Chile desde abril de 2023. Destaca por su liderazgo y compromiso en el ámbito deportivo y administrativo, guiando al club hacia nuevos logros con visión y pasión.</p>
-      			</div>
-      			<div class="column column--33">
-      				<h3 class="our-team__title">Cecilia Perez</h3>
-      				<img src="/fotos/ceci.jpg" alt="" class="our-team__img">
-      				<p class="our-team__txt">Vicepresidenta de Azul Azul: Cecilia Roxana Perez Jara es la Vicepresidente del Club Universidad de Chile desde abril de 2023. Destaca por su dedicación y experiencia en el ámbito deportivo y directivo, contribuyendo al crecimiento y éxito del club con su liderazgo comprometido.</p>
-      			</div>
-      			<div class="column column--33">
-      				<h3 class="our-team__title">Manuel Mayo</h3>
-      				<img src="/fotos/manuel.jpg" alt="" class="our-team__img">
-      				<p class="our-team__txt">Gerente deportivo de Azul Azul: 
-                        Manuel Mayo es el Gerente Deportivo del Club Universidad de Chile, aportando experiencia y liderazgo clave al desarrollo deportivo del club. Su dedicación impulsa el éxito y la excelencia en las actividades deportivas, guiando al club hacia nuevos logros y éxitos. </p>
-      			</div>
-      		</div>
-      	</section>
-      
+        <section class="group our-team">
+            <h2 class="group__title">Directores</h2>
+            <div class="container container--flex">
+                <div class="column column--33">
+                    <h3 class="our-team__title">Michael Clark</h3>
+                    <img src="/fotos/clark.jpg" alt="" class="our-team__img">
+                    <p class="our-team__txt">Presidente de Azul Azul: Michael Mark Clark Varela es el Presidente del Club Universidad de Chile desde abril de 2023. Destaca por su liderazgo y compromiso en el ámbito deportivo y administrativo, guiando al club hacia nuevos logros con visión y pasión.</p>
+                </div>
+                <div class="column column--33">
+                    <h3 class="our-team__title">Cecilia Perez</h3>
+                    <img src="/fotos/ceci.jpg" alt="" class="our-team__img">
+                    <p class="our-team__txt">Vicepresidenta de Azul Azul: Cecilia Roxana Perez Jara es la Vicepresidente del Club Universidad de Chile desde abril de 2023. Destaca por su dedicación y experiencia en el ámbito deportivo y directivo, contribuyendo al crecimiento y éxito del club con su liderazgo comprometido.</p>
+                </div>
+                <div class="column column--33">
+                    <h3 class="our-team__title">Manuel Mayo</h3>
+                    <img src="/fotos/manuel.jpg" alt="" class="our-team__img">
+                    <p class="our-team__txt">Gerente deportivo de Azul Azul: Manuel Mayo es el Gerente Deportivo del Club Universidad de Chile, aportando experiencia y liderazgo clave al desarrollo deportivo del club. Su dedicación impulsa el éxito y la excelencia en las actividades deportivas, guiando al club hacia nuevos logros y éxitos.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="main-footer">
         <div class="container container--flex">
             <div class="column column--33">
-                <h2 class="column__title">Visitanos</h2>
-                <p class="column__txt">www.udechile.cl </p>
+                <h2 class="column__title">Visítanos</h2>
+                <p class="column__txt">www.udechile.cl</p>
             </div>
             <div class="column column--33">
-                <h2 class="column__title">Contactenos</h2>
+                <h2 class="column__title">Contáctenos</h2>
                 <p class="column__txt">Av. El Parrón 0939, Región Metropolitana</p>
-                <p class="column__txt">Telefono: +56 2 2899 9900</p>
+                <p class="column__txt">Teléfono: +56 2 2899 9900</p>
                 <p class="column__txt">info@udechile.cl</p>
-               
             </div>
             <div class="column column--33">
-                <h2 class="column__title">Siguenos</h2>
+                <h2 class="column__title">Síguenos</h2>
                 <p class="column__txt"><a href="https://web.facebook.com/clubuniversidaddechileoficial/?_rdc=1&_rdr" class="icon-facebook">Facebook</a></p>
                 <p class="column__txt"><a href="https://twitter.com/udechile" class="icon-twitter">Twitter</a></p>
                 <p class="column__txt"><a href="https://www.instagram.com/udechileoficial/" class="icon-instagram">Instagram</a></p>

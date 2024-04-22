@@ -5,23 +5,66 @@
     <title>Home</title>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/about.css">
     <link href="https://file.myfontastic.com/3j45yvRpaWhzeStdASehh9/icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo personalizado para el título "Universidad de Chile" */
+        .logo {
+            font-family: "Sedan", serif; /* Cambia la fuente a "Sedan" */
+            font-weight: 400; /* Peso de la fuente regular */
+            font-style: normal; /* Estilo de fuente normal (no cursiva) */
+            /* Ajusta otros estilos según sea necesario */
+        }
+
+        /* Estilo para títulos adicionales */
+        .main__title {
+            font-family: "Sedan", serif; /* Cambia la fuente a "Sedan" */
+            font-weight: 400; /* Peso de la fuente regular */
+            font-style: normal; /* Estilo de fuente normal (no cursiva) */
+            /* Ajusta otros estilos según sea necesario */
+        }
+
+        /* Estilo para texto adicional */
+        .main_txt {
+            font-family: "Sedan", serif; /* Cambia la fuente a "Sedan" */
+            font-weight: 400; /* Peso de la fuente regular */
+            font-style: normal; /* Estilo de fuente normal (no cursiva) */
+            /* Ajusta otros estilos según sea necesario */
+        }
+
+        /* Estilo para subtítulos */
+        .group__title {
+            font-family: "Sedan", serif; /* Cambia la fuente a "Sedan" */
+            font-weight: 400; /* Peso de la fuente regular */
+            font-style: normal; /* Estilo de fuente normal (no cursiva) */
+            /* Ajusta otros estilos según sea necesario */
+        }
+
+        /* Estilo para títulos de secciones especiales */
+        .today-special__tittle {
+            font-family: "Sedan", serif; /* Cambia la fuente a "Sedan" */
+            font-weight: 400; /* Peso de la fuente regular */
+            font-style: normal; /* Estilo de fuente normal (no cursiva) */
+            /* Ajusta otros estilos según sea necesario */
+        }
+    </style>
 </head>
 <body>
     <header class="main-header">
         <div class="container container--flex">
             <div class="logo-container column column--50">
-                <h1 class="logo">Universidad de chile</h1>
+                <h1 class="logo">Universidad de Chile</h1> <!-- Aquí se aplica el estilo de fuente "Sedan" -->
             </div>
             <div class="main-header__contactInfo column column--50">
                 <p class="main-header__contactInfo__phone">
-                    <span class="icon-phone">+56 2 2899 9900
-                    </span>
+                    <span class="icon-phone">+56 2 2899 9900</span>
                 </p>
                 <p class="main-header__contactInfo__addres">
                     <span class="icon-location">Av. El Parrón 0939, Región Metropolitana</span>
                 </p>
-                
             </div>
         </div>
     </header>
@@ -31,19 +74,19 @@
             <ul class="menu" id="menu">
                 <li class="menu__item"><a href="/" class="menu__link menu__link--select">Inicio</a></li>
                 <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
-                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galería</a></li>
                 <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
             </ul>
             <div class="social-icon">
                 <a href="https://web.facebook.com/clubuniversidaddechileoficial/?_rdc=1&_rdr" class="social-icon__link"><span class="icon-facebook"></span></a>
-                <a href="https://twitter.com/udechile" class="social-icon__link" class="social-icon__link"><span class="icon-twitter"></span></a>
+                <a href="https://twitter.com/udechile" class="social-icon__link"><span class="icon-twitter"></span></a>
                 <a href="https://www.instagram.com/udechileoficial/" class="social-icon__link"><span class="icon-instagram"></span></a>
             </div>
         </div>
     </nav>
     <section class="banner">
         <img src="/mural.webp" alt="" class="banner__img">
-        <div class="banner__content">Por que somos diferentes, Somos de la U</div>
+        <div class="banner__content">Porque somos diferentes, somos de la U</div>
     </section>
     <main class="main">
         <section class="group--color">
@@ -62,17 +105,16 @@
                 <div class="column column--50">
                     <h3 class="column__title">Plantel 2024 </h3>
                     <p class="column__txt">El Club Universidad de Chile ha sido un equipo emblemático en el fútbol chileno, con una historia marcada por éxitos y momentos desafiantes. En los últimos años, tras un período de dificultades deportivas, el club ha buscado recuperar su posición competitiva.
-
                         En 2024, el club se encuentra en un proceso de reconstrucción y renovación, buscando retomar su lugar entre los equipos más destacados del país. A pesar de los años difíciles, la Universidad de Chile cuenta con una sólida base de seguidores y una rica historia en el fútbol nacional, lo que brinda esperanza y optimismo para el futuro del equipo.</p>
                 </div>
             </div>
         </section>
         <section class="group today-special">
-            <h2 class="group__title">Imagenes 2024</h2>
+            <h2 class="group__title">Imágenes 2024</h2>
             <div class="container container--flex">
                 <div class="column column--50--25">
                     <img src="/fotos/imagen inicio 1.jpg" alt="" class="today-special__img">
-                    <div class="today-special__tittle">Udechile vs o'higgins</div>
+                    <div class="today-special__tittle">Udechile vs O'Higgins</div>
                 </div>
                 <div class="column column--50--25">
                     <img src="/fotos/imagen inicio 2.jpg" alt="" class="today-special__img">
@@ -88,23 +130,21 @@
                 </div>
             </div>
         </section>
-      
     </main>
     <footer class="main-footer">
         <div class="container container--flex">
             <div class="column column--33">
-                <h2 class="column__title">Visitanos</h2>
+                <h2 class="column__title">Visítanos</h2>
                 <p class="column__txt">www.udechile.cl</p>
             </div>
             <div class="column column--33">
-                <h2 class="column__title">Contactenos</h2>
+                <h2 class="column__title">Contáctenos</h2>
                 <p class="column__txt">Av. El Parrón 0939, Región Metropolitana</p>
-                <p class="column__txt">Telefono: +56 2 2899 9900</p>
+                <p class="column__txt">Teléfono: +56 2 2899 9900</p>
                 <p class="column__txt">info@udechile.cl</p>
-               
             </div>
             <div class="column column--33">
-                <h2 class="column__title">Siguenos</h2>
+                <h2 class="column__title">Síguenos</h2>
                 <p class="column__txt"><a href="https://web.facebook.com/clubuniversidaddechileoficial/?_rdc=1&_rdr" class="icon-facebook">Facebook</a></p>
                 <p class="column__txt"><a href="https://twitter.com/udechile" class="icon-twitter">Twitter</a></p>
                 <p class="column__txt"><a href="https://www.instagram.com/udechileoficial/" class="icon-instagram">Instagram</a></p>
